@@ -1,0 +1,26 @@
+{
+  "name": "builder-test-app",
+  "version": "1.0.0",
+  "description": "Test app for consuming builder archetypes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-for-coffee/builder-test-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code-for-coffee/builder-test-app/issues"
+  },
+  "homepage": "https://github.com/code-for-coffee/builder-test-app#readme",
+  "dependencies": {
+    "builder": "^3.2.3",
+    "builder-archetype-example": "file:../builder-archetype-example-dev.git"
+  },
+  "devDependencies": {
+    "builder-archetype-example-dev": "file:../builder-archetype-example-dev.git"
+  }
+}
