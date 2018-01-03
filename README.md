@@ -23,8 +23,8 @@ archetypes:
 
 Looks directly in our package.json for two dependencies (specified via file system OR npm modules; Git *does not work* per https://github.com/FormidableLabs/builder/issues/98): 
 
-- builder-archetype-example
-- builder-archetype-example-dev
+- builder-archetype-example (in our example this contains the modules: *semver* & *structz*)
+- builder-archetype-example-dev (in our example this contains the mdoules: *webpack*)
 
 From there, builder then installs the depencies directly into node_modules. 
 
