@@ -14,10 +14,10 @@ Based on Formidable's **Builder**: http://formidable.com/open-source/builder/
 > Script for the lazy:
 
 ```bash
-cd 
-mkdir sandbox && cd sandbox
-git clone https://github.com/code-for-coffee/builder-archetype-example-dev.git && cd ..
-git clone https://github.com/code-for-coffee/builder-archetype-example.git && cd ..
+mkdir sandbox
+cd sandbox
+git clone https://github.com/code-for-coffee/builder-archetype-example-dev.git
+git clone https://github.com/code-for-coffee/builder-archetype-example.git
 git clone https://github.com/code-for-coffee/builder-test-app.git 
 cd builder-test-app
 npm i
