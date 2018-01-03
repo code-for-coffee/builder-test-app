@@ -11,6 +11,18 @@ Based on Formidable's **Builder**: http://formidable.com/open-source/builder/
 3. `cd` into `builder-test-app` (this project)
 4. `npm i` to install everything. You'll notice that your `node_modules` contains many dependencies that *are not* in our package.json. They are instead hosted in two central locations.
 
+> Script for the lazy:
+
+```bash
+cd 
+mkdir sandbox && cd sandbox
+git clone https://github.com/code-for-coffee/builder-archetype-example-dev.git
+git clone https://github.com/code-for-coffee/builder-archetype-example.git
+git clone https://github.com/code-for-coffee/builder-test-app.git
+cd builder-test-app
+npm i
+```
+
 ## Holy crap! how the fuck does this work!?
 
 Two archetypes are created: one for dependencies and one for devDependencies. Those repos contain dependencies to be installed in each project. We specify the set via an **Archetype** file in the `.builderrc` file:
